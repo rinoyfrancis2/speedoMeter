@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		881194FC254AFD06006DA56C /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881194FB254AFD06006DA56C /* HistoryViewController.swift */; };
+		88119501254AFD34006DA56C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88119500254AFD34006DA56C /* DetailViewController.swift */; };
+		88119504254AFE60006DA56C /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88119503254AFE60006DA56C /* HistoryTableViewCell.swift */; };
 		8814AD11254A915D002D774E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814AD10254A915D002D774E /* AppDelegate.swift */; };
 		8814AD13254A915D002D774E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814AD12254A915D002D774E /* SceneDelegate.swift */; };
 		8814AD15254A915D002D774E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814AD14254A915D002D774E /* ViewController.swift */; };
 		8814AD18254A915D002D774E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8814AD16254A915D002D774E /* Main.storyboard */; };
 		8814AD1A254A915E002D774E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8814AD19254A915E002D774E /* Assets.xcassets */; };
 		8814AD1D254A915E002D774E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8814AD1B254A915E002D774E /* LaunchScreen.storyboard */; };
+		8814AD26254AC7DD002D774E /* SpeedoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814AD25254AC7DD002D774E /* SpeedoViewController.swift */; };
+		8814AD2D254AC96B002D774E /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814AD2C254AC96B002D774E /* ButtonView.swift */; };
+		8814AD37254AD6A5002D774E /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814AD36254AD6A5002D774E /* StartButton.swift */; };
+		8814AD3D254AE2EF002D774E /* TripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814AD3C254AE2EF002D774E /* TripView.swift */; };
+		881DF5E9254D2AF200E48347 /* speedoMeter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 881DF5E7254D2AF200E48347 /* speedoMeter.xcdatamodeld */; };
+		88A0A7A4254C1F7200072578 /* Speedo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A0A7A3254C1F7200072578 /* Speedo.swift */; };
+		88A0A7A7254C82C400072578 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A0A7A6254C82C400072578 /* Constant.swift */; };
+		88D96ED7254BE6430031E87F /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D96ED6254BE6430031E87F /* LocationHandler.swift */; };
+		88D96EDA254BE65B0031E87F /* CoredataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D96ED9254BE65B0031E87F /* CoredataManager.swift */; };
+		88D96EDE254BF1C60031E87F /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D96EDD254BF1C60031E87F /* Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		881194FB254AFD06006DA56C /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		88119500254AFD34006DA56C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		88119503254AFE60006DA56C /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
 		8814AD0D254A915D002D774E /* speedoMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speedoMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8814AD10254A915D002D774E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8814AD12254A915D002D774E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,16 @@
 		8814AD19254A915E002D774E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8814AD1C254A915E002D774E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8814AD1E254A915E002D774E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8814AD25254AC7DD002D774E /* SpeedoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedoViewController.swift; sourceTree = "<group>"; };
+		8814AD2C254AC96B002D774E /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		8814AD36254AD6A5002D774E /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		8814AD3C254AE2EF002D774E /* TripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripView.swift; sourceTree = "<group>"; };
+		881DF5E8254D2AF200E48347 /* speedoMeter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = speedoMeter.xcdatamodel; sourceTree = "<group>"; };
+		88A0A7A3254C1F7200072578 /* Speedo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speedo.swift; sourceTree = "<group>"; };
+		88A0A7A6254C82C400072578 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		88D96ED6254BE6430031E87F /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
+		88D96ED9254BE65B0031E87F /* CoredataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataManager.swift; sourceTree = "<group>"; };
+		88D96EDD254BF1C60031E87F /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +63,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		881194FA254AFCEC006DA56C /* History */ = {
+			isa = PBXGroup;
+			children = (
+				881194FB254AFD06006DA56C /* HistoryViewController.swift */,
+				88119503254AFE60006DA56C /* HistoryTableViewCell.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		881194FF254AFD24006DA56C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				88119500254AFD34006DA56C /* DetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		8814AD04254A915D002D774E = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +99,12 @@
 		8814AD0F254A915D002D774E /* speedoMeter */ = {
 			isa = PBXGroup;
 			children = (
+				88A0A7A2254C1F5E00072578 /* Model */,
+				88D96EE1254C144A0031E87F /* Services */,
+				88D96EDC254BF1950031E87F /* Utility */,
+				881194FF254AFD24006DA56C /* Detail */,
+				881194FA254AFCEC006DA56C /* History */,
+				8814AD3A254ADDF3002D774E /* Speedo */,
 				8814AD10254A915D002D774E /* AppDelegate.swift */,
 				8814AD12254A915D002D774E /* SceneDelegate.swift */,
 				8814AD14254A915D002D774E /* ViewController.swift */,
@@ -63,8 +112,54 @@
 				8814AD19254A915E002D774E /* Assets.xcassets */,
 				8814AD1B254A915E002D774E /* LaunchScreen.storyboard */,
 				8814AD1E254A915E002D774E /* Info.plist */,
+				881DF5E7254D2AF200E48347 /* speedoMeter.xcdatamodeld */,
 			);
 			path = speedoMeter;
+			sourceTree = "<group>";
+		};
+		8814AD39254ADDE2002D774E /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8814AD36254AD6A5002D774E /* StartButton.swift */,
+				8814AD2C254AC96B002D774E /* ButtonView.swift */,
+				8814AD3C254AE2EF002D774E /* TripView.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		8814AD3A254ADDF3002D774E /* Speedo */ = {
+			isa = PBXGroup;
+			children = (
+				8814AD25254AC7DD002D774E /* SpeedoViewController.swift */,
+				8814AD39254ADDE2002D774E /* SupportFiles */,
+			);
+			path = Speedo;
+			sourceTree = "<group>";
+		};
+		88A0A7A2254C1F5E00072578 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88A0A7A3254C1F7200072578 /* Speedo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88D96EDC254BF1950031E87F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				88D96EDD254BF1C60031E87F /* Util.swift */,
+				88A0A7A6254C82C400072578 /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		88D96EE1254C144A0031E87F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				88D96ED6254BE6430031E87F /* LocationHandler.swift */,
+				88D96ED9254BE65B0031E87F /* CoredataManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +232,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88119501254AFD34006DA56C /* DetailViewController.swift in Sources */,
+				8814AD37254AD6A5002D774E /* StartButton.swift in Sources */,
+				88A0A7A7254C82C400072578 /* Constant.swift in Sources */,
+				8814AD26254AC7DD002D774E /* SpeedoViewController.swift in Sources */,
 				8814AD15254A915D002D774E /* ViewController.swift in Sources */,
+				88119504254AFE60006DA56C /* HistoryTableViewCell.swift in Sources */,
 				8814AD11254A915D002D774E /* AppDelegate.swift in Sources */,
+				88D96ED7254BE6430031E87F /* LocationHandler.swift in Sources */,
+				88A0A7A4254C1F7200072578 /* Speedo.swift in Sources */,
+				88D96EDE254BF1C60031E87F /* Util.swift in Sources */,
+				8814AD2D254AC96B002D774E /* ButtonView.swift in Sources */,
 				8814AD13254A915D002D774E /* SceneDelegate.swift in Sources */,
+				8814AD3D254AE2EF002D774E /* TripView.swift in Sources */,
+				881DF5E9254D2AF200E48347 /* speedoMeter.xcdatamodeld in Sources */,
+				88D96EDA254BE65B0031E87F /* CoredataManager.swift in Sources */,
+				881194FC254AFD06006DA56C /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +449,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		881DF5E7254D2AF200E48347 /* speedoMeter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				881DF5E8254D2AF200E48347 /* speedoMeter.xcdatamodel */,
+			);
+			currentVersion = 881DF5E8254D2AF200E48347 /* speedoMeter.xcdatamodel */;
+			path = speedoMeter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8814AD05254A915D002D774E /* Project object */;
 }

@@ -55,6 +55,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This application need to enable the location for find speed and current location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This application need to enable the location for find speed and current location</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
