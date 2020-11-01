@@ -15,11 +15,10 @@ class HistoryViewController: UIViewController {
         super.viewDidLoad()
         historyTableview.delegate = self
         historyTableview.dataSource = self
-        CoredataManager.shared.retirveAllTripsFromLocal { (Speedos) in
-            self.historyData = Speedos
-            print(self.historyData.count)
+        CoredataManager.shared.retirveAllTripsFromLocal { [weak self] (Speedos) in
+            self?.historyData = Speedos
             DispatchQueue.main.async {
-                self.historyTableview.reloadData()
+                self?.historyTableview.reloadData()
             }
         }
     }
