@@ -26,7 +26,7 @@ class CoredataManager {
         self.saveData()
     }
     
-    func retirveAllTripsFromLocal() -> [Speedo] {
+    func retirveAllTripsFromLocal(handler: @escaping (([Speedo])->Void)) {
         var tripArray: [Speedo] = []
         let request = NSFetchRequest<NSFetchRequestResult>(entityName: "Trip")
         do {
@@ -34,11 +34,11 @@ class CoredataManager {
             for data in result as! [NSManagedObject] {
                 let speedo = Speedo(timer: data.value(forKey: "timer") as? String, topSpeed: data.value(forKey: "topSpeed") as? Double, tripOption: data.value(forKey: "tripOption") as? Int, distance: data.value(forKey: "distance") as? Double, averageSpeed: data.value(forKey: "averageSpeed") as? Double, date: data.value(forKey: "date") as? Date)
                 tripArray.append(speedo)
-            }  
+            }
+            handler(tripArray)
         } catch {
             print("Failed")
         }
-        return tripArray
     }
     
     private func saveData() {
