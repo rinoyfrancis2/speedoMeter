@@ -42,6 +42,7 @@ class LocationHandler : NSObject {
         speed = nil
         speedArray = []
         distance = 0.0
+        previousLocation = nil
     }
     
     private func requestLocationPermission() {
